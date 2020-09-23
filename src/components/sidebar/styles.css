@@ -1,0 +1,27 @@
+.filter-navbar{
+    background: #fc0339;
+    padding:10px;
+    padding-bottom: 0px;
+    display:flex;
+    justify-content: space-between;
+}
+.todays-text{
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+}
+.fa{
+    color:#fff;
+}
+.card-filter-header{
+    bottom : 0px;
+    border-bottom: 2px solid #ccc;
+    padding : 10px;
+}
+.card-filter-body{
+    bottom : 0px;
+    border-bottom: 1px solid #ccc;
+    padding : 10px;
+}
+.card-filter{
+    padding: 10px;
+}

@@ -1,0 +1,87 @@
+.container{
+    margin-top: 20px;
+}
+.image-sizes img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.image-sizes{
+    width: 100px;
+    height: 120px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.quantity_input{
+    width: 20%;
+}
+
+.cart-main{
+    display: flex;
+    justify-content : space-between ;
+    padding: 20px 20px;
+}
+
+.right-content{
+    background-color: #fff;
+    width : 25%;
+}
+
+.left-content{
+background-color: #fff;
+    width : 74%;
+    max-height: 250px
+}
+
+.card-header{
+    display : flex;
+    justify-content: space-between;
+    background-color: #d4d5d6 !important;
+    border-radius: 0px !important;
+}
+
+.pincode{
+    color: orange
+}
+
+.fa-map-marker{
+    color: green
+}
+
+.description-text{
+    color : #808080;
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+}
+
+.cart-items-row{
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-place-order{
+    background: #fc0339;
+    color:#fff;
+  }
+  .btn-place-order:hover{
+    background: #fff;
+    color:#000;
+    border: 1px solid #000;
+  }
+
+  .btn-adjust{
+      border-radius: 50px;
+      border : 1px solid #808080
+  }
+  .btn-adjust:focus{
+    outline: none
+}

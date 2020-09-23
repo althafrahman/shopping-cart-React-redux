@@ -1,0 +1,27 @@
+.card-width {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 10px !important;
+}
+
+.bgcolor{
+  background : #121d54;
+  padding: 200px;
+}
+
+.card-header{
+  background-color: white !important;
+  border-bottom: 0px !important;
+  border-radius: 10px !important;
+}
+
+.btn-darkblue{
+  color: #fff !important;
+    background-color: #121d54 !important;
+    border-color: #121d54 !important;
+    width: 100%;
+}
+
+body{
+  background: #edebeb !important
+}

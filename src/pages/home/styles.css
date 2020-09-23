@@ -1,0 +1,29 @@
+.image-slide{
+    width: 100%;
+}
+
+.img-props{
+    height: 350px;
+}
+
+.slider-class{
+    margin: 20px
+}
+
+.home-main{
+    display :flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    padding-top: 20px
+
+}
+
+.sidebar-content{
+    background-color: #fff;
+    width : 25%;
+}
+
+.mainsection-content{
+    background-color: #fff;
+    width : 74%;
+}

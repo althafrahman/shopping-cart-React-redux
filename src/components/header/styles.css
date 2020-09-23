@@ -1,0 +1,50 @@
+.navbars{
+    background-color: #fc0339;
+    padding: 10px 50px;
+    display:flex;
+    justify-content: space-between
+}
+
+.navbars-link a{
+    margin: 0 10px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff
+}
+
+.linktohome{
+    text-decoration: none;
+    color: #fff;
+}
+
+.linktohome:hover{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.navbars-link a:hover{
+    transition: 0.2s;
+    color: #ccc
+}
+
+.navbar-search img,input{
+    margin : 0 10px;
+}
+
+.store-name{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lemonada', cursive;
+}
+
+.search-box{
+    border-radius: 5px;
+    border : 1px solid #ccc;
+    padding : 2px;
+    font-family: 'Raleway', sans-serif;
+}
+.search-box:focus{
+    outline: none
+}
