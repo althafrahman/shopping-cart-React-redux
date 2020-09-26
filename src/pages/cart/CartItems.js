@@ -74,6 +74,7 @@ class CartItems extends Component {
                                                 <p className="description-text">{cartProd.description}</p>
                                                 <p className="green-line"><del>$2000</del> ${cartProd.price}</p>
                                                 <p className="description-text"><b>Quantity : </b>{cartProd.quantity}</p>
+                                                <p className = "remove-cart" onClick = {() => this.props.removeItem(cartProd.id)} >REMOVE</p>
                                             </div>
                                             <div className="col-md-3">
                                                 <span>Unit Price : ${cartProd.price}</span> <br />
