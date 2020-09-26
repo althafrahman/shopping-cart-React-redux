@@ -30,31 +30,6 @@ class CartItems extends Component {
         return (
             <div>
                 <div className="">
-                    {/* <table className="table table-light table-bordered">
-                        <thead><tr>
-                            <th>Sl No</th>
-                            <th>Name</th>
-                            <th></th>
-                            <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Total</th>
-                            <th>Action</th>
-                        </tr></thead>
-                        <tbody>
-                            {
-                                lists.map(cartProd => (
-                                    <tr key={cartProd.id}>
-                                        <td>1</td>
-                                        <td>{cartProd.name}</td>
-                                        <td><img className="image-sizes" src={cartProd.imgUrl} alt="No Image" /></td>
-                                        <td>{cartProd.price}</td>
-                                        <td><button onClick = {() => this.props.decrementAction(cartProd.id)}><i className = "fas fa-minus"></i></button><input type="number" value={cartProd.quantity} className="quantity_input" readOnly/><button onClick={() => this.props.incrementAction(cartProd.id)}><i className = "fas fa-plus"></i></button></td>
-                                        <td>{cartProd.quantity * cartProd.price}</td>
-                                        <td><button onClick = {() => this.props.removeItem(cartProd.id)} className="btn btn-danger"><i className="fas fa-trash"></i></button></td></tr>
-                                ))}
-                        </tbody>
-
-                    </table> */}
                     <div className="cart-main" >
                         <div className="left-content ">
                             <div className="card">
